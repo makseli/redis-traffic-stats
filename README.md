@@ -1,4 +1,11 @@
-# redis-traffic-stats
+# for Docker Suport this repo
+
+- [x] Prepare docker-compose.yaml  
+- [ ] external redis integration
+- [ ] grafana container in docker-compose file
+- [ ] prometheus container in docker-compose file
+
+# original repo -> redis-traffic-stats
 
 `redis-traffic-stats` is a live monitor and analyze RESP packets in your server. This tool does not touch Redis Server.  Just monitors redis client request and response on the real time.
 

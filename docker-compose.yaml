@@ -5,13 +5,13 @@ services:
     build: ./
     ports:
       - 9201:9200
-    links:
-      - redis
     tty: true
-  redis:
-      restart: unless-stopped
-      hostname: redis
-      container_name: redis
-      image: redis:6.0
-      ports:
-        - '0.0.0.0:6379:6379'
+#    links:
+#      - redis
+#  redis:
+#      restart: unless-stopped
+#      hostname: redis
+#      container_name: redis
+#      image: redis:6.0
+#      ports:
+#        - '0.0.0.0:6379:6379'
